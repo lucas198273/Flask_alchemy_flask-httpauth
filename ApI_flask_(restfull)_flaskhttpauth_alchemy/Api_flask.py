@@ -1,7 +1,7 @@
 from flask import Flask, request
 from flask_restful import Resource,Api
-from models import Pessoas,Atividades,Usuarios
-from flask_httpauth import HTTPBasicAuth
+from models import Pessoas,Atividades,Usuarios            # Api é utilizada para pegar informações do banco de dados criado no arquivo models.py enviando para uma pagina  
+from flask_httpauth import HTTPBasicAuth                  # Utilizando o flaskhttpauth eu inseri uma requisição basica de login e senha nas classes Pessoas e Lista_pessoas
 
 auth = HTTPBasicAuth()
 app = Flask(__name__)
