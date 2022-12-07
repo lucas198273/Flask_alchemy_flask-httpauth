@@ -1,6 +1,6 @@
 from sqlalchemy import create_engine,Column,Integer,String, ForeignKey
 #Bibliotecas cria tabela,coluna, tipo : inteiro e string
-from sqlalchemy.orm import scoped_session,sessionmaker, relationship
+from sqlalchemy.orm import scoped_session,sessionmaker, relationship                      #Criação e preenchimento do banco de dados utilizando alchemy
 # criação com escopo, e criador de sessão
 from sqlalchemy.ext.declarative import declarative_base
 #Base declarativa
