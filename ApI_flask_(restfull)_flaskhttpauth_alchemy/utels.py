@@ -1,5 +1,5 @@
 from models import Pessoas, db_session, Usuarios
-from flask_httpauth import HTTPBasicAuth
+from flask_httpauth import HTTPBasicAuth                                          ## Este arquivo possibilita inserir,excluir, consultar, alterar dados e usuarios
 
 
 def inserir_pessoas():
